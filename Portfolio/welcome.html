@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="Stylesheet/navigation.css">
+		<link rel="stylesheet" href="Stylesheet/skill.css">
+		<link rel="stylesheet" href="Stylesheet/portfolio.css">
+		<title>Video background</title>
+
+		<!-- JQUERY
+		    ================================================== -->
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="js/jquery.easypiechart.js"></script>
+		<script>
+    $(function() {
+        $('.chart').easyPieChart({
+            size : 180,
+						barColor:'#17d3e6',
+						scaleColor:false,
+						lineWidth:10,
+						trackColor :'#373737',
+						lineCap :'circle',
+						animate: 2000
+        });
+    });
+   </script>
+	</head>
+	<body>
+	<header class="v-header container">
+      <div class="fullscreen-video-wrap">
+         <video id="video-bg-elem" autoplay="autoplay" loop="true">
+         <source src="image/Home_work.mp4" type="video/mp4">
+				</video>
+		 </div>
+			<div class ="header-overlay">
+				<div class ="header">
+					 <div class ="navbar" id='nav'>
+						 <ul>
+								<li><a href="#about" id ="linkref">ABOUT</a></li>
+								<li><a href="#skill" id ="linkref">SKILLS</a></li>
+								<li><a href="#port" id ="linkref">PORTFOLIO</a></li>
+								<li><a href="#contact" id ="linkref">CONTACT</a></li>
+						 </ul>
+					</div>
+				</div>
+				<div class ="box"></div>
+			</div>
+			<div class ="header-content">
+			 <div class ="rounded"></div>
+		  	<div class="intro-text">
+				<h1>POOJA TRIKHA</h1>
+				<p>BUSINESS ANALYST & UI DESIGNER</p>
+			</div>
+		 </div>
+	</header>
+
+			<section class="section section-a">
+			<div style= "height:450px";class ="container">
+			<a name= "about";></a>
+			      <h1><p class ="justifier-header">ABOUT</p></h1>
+				    <p class ="justifier">Goal oriented IT professional with 7 + years of experience working in software Product Development and 3 years of relevant experience in Quality Assurance for Web-based and Mobile based applications.
+            My core skills are in Information Technology. I am ISTQB certified Software Tester. I have versatile experience in Business Analysis, IT Quality assurance, IT &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspconsulting and project
+						management, front-end designing, and development.
+            </p>
+	    </div>
+	    </section>
+
+
+			<section class="section section-b">
+			<div class ="container">
+			<h1><a name= "skill"><p class ="justifier-header-B">SKILLS</a></p></h1>
+			<div style= "height:350px"; background: "blue";>
+      <div class ="box">
+				   <div class="chart" data-percent="95">95%</div>
+					 <h1>Testing</h1>
+      </div>
+			<div class ="box">
+				   <div class="chart" data-percent="85">85%</div>
+					 <h1>Consulting</h1>
+      </div>
+			<div class ="box">
+				   <div class="chart" data-percent="80">80%</div>
+					 <h1>management</h1>
+      </div>
+			<div class ="box">
+				   <div class="chart" data-percent="75">75%</div>
+					 <h1>Analysis</h1>
+      </div>
+		  </div>
+		  </div>
+			</section>
+
+
+	   <section class="section section-C">
+	   <div class ="container">
+	   <h1><a name= "port"><p class ="justifier-header-C">PORTFOLIO</a></p></h1>
+	   <div class ="timeline" style= "height:690px";>
+      <ul>
+				 <li>
+					  <div class = "content">
+							   <h2> Software Testing </h2>
+								 <p>I am a certified software tester. And I have extensively tested both web and mobile applications. I have recently learned test automation for fast and effective regression testing.I have used WTT and JIRA for writting bugs. </p>
+						</div>
+						<div class = "time">
+							   <h3> Testing </h3>
+						</div>
+				 </li>
+				 <li>
+					 <div class = "content">
+								<h2> Software Consultant </h2>
+								<p>Started my career as software consultant. Got an opportunity to work in full SDLC for a government project in India for 2+ years. In those 2+ years, i understood how to write AS-IS and TO-BE documents.  </p>
+					 </div>
+					 <div class = "time">
+								<h3> Consultant </h3>
+					 </div>
+				</li>
+				<li>
+					 <div class = "content">
+								<h2> Software Managment </h2>
+								<p>IT Managment is my core skill. Successfully managed a team of 20+ in my all previous organisations.To increase my management skills in IT services, i did my MBA in Information Technology. </p>
+					 </div>
+					 <div class = "time">
+								<h3> Management </h3>
+					 </div>
+				</li>
+				<li>
+					 <div class = "content">
+								<h2> Software Analysis </h2>
+								<p>As a Business Analyst,i did the analysis and designing product as per requirement. And also sprint planning for every release. </p>
+					 </div>
+					 <div class = "time">
+								<h3>Analysis </h3>
+					 </div>
+				</li>
+				<div style="clear:both;"></div>
+			</ul>
+	   </div>
+  	 </div>
+     </section>
+
+
+
+ 		 <section class="section section-d">
+ 		 <div class ="container">
+ 		 <h1><a name= "contact"><p class ="justifier-header-D">CONTACT</a></p></h1>
+ 		 <div style= "height:400px";>
+     <div class ="conatact-form">
+			  <form id="conatact-form" method ="post" action ="">
+		     <input name ="name" type ="text" class="form-control" placeholder="Your Name" requirement><br/>
+         <input name ="email" type ="email" class="form-control" placeholder="Your Email" requirement><br/>
+         <textarea name ="message" class ="form-control" placeholder="Message" rows ="4" required></textarea><br/>
+				 <input type ="submit" class ="form-control submit" value="SEND MESSAGE">
+			 </form>
+		 </div>
+		 </div>
+ 		 </section>
+
+	</body>
+</html>
